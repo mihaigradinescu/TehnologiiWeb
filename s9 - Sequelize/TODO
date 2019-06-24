@@ -1,0 +1,17 @@
+Student
+
+firstName ->  String, not null, length > 3, length < 100
+lastName ->  String, not null, length > 3, length < 100
+email -> String, not null,valid as email
+age -> Integer, not null, [0..125]
+
+
+Student has many Grade
+
+Grade 
+subject ->  String, not null, length > 3
+value -> Integer, not null, [1..10]
+
+Student has many Report
+title -> String, not null, length > 3
+content -> Text

@@ -1,0 +1,15 @@
+a:not([href]):hover{
+    color:orange;
+}
+
+a:not([href]):active{
+    color:red;
+}
+
+a[href^="http:"]:visited,a[href^="http:"]:link{
+    color:orange;
+}
+
+a[href^="https:"]:visited,a[href^="https:"]:link{
+    color:green;
+}

@@ -1,0 +1,3 @@
+nvm install stable
+npm i create-react-app -g
+create-react-app simple-app

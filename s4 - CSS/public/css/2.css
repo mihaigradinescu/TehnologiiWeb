@@ -1,0 +1,11 @@
+.image{
+    height:100px;
+    border:1px dashed orange;
+    transition: all 5s ease;
+}
+
+.image:hover{
+    height:400px;
+    border:3px dashed tomato;
+    transition: all 5s ease;
+}

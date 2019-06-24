@@ -1,0 +1,16 @@
+ol>li:nth-child(even){
+	color:blue;
+}
+
+ol>li:nth-child(odd){
+	color:orange;
+}
+
+ol>li:first-child{
+	color:green;
+}
+
+ol>li:last-child{
+	color:black;
+}
+

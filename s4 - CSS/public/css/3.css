@@ -1,0 +1,14 @@
+.component{
+    display: inline-block;
+    width:200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 200px;
+}
+
+.container{
+    height: 100vh;
+    line-height: 100vh;
+    text-align:center;
+}
